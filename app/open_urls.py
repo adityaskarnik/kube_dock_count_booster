@@ -1,8 +1,9 @@
+import os
 from selenium import webdriver
 import time
 
-chromedriver_path = "./chromedriver"
-
+chromedriver_path = os.getcwd() + "/chromedriver"
+print("pwd", chromedriver_path)
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support import expected_conditions as EC
