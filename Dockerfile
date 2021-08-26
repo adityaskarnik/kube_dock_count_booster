@@ -18,7 +18,7 @@ RUN apt-get update \
 RUN apt-get update
 
 # Installing python and its dependencies
-RUN apt-get install -y python-pip python-dev build-essential
+RUN apt-get install -y python3-pip python-dev build-essential
 
 # Copy the local folder of your app to docker container
 # Consider this app folder in placed in the same folder as your Dockerfile
@@ -31,7 +31,7 @@ WORKDIR /app
 RUN pip install -r requirements.txt
 
 # This will the command run when you start your container
-ENTRYPOINT ["python"]
+ENTRYPOINT ["python3"]
 
 # Like "python app.py", this will run when you start your container
 CMD ["open_urls.py"]
