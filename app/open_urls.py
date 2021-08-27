@@ -16,7 +16,14 @@ chrome_options.add_argument('--log-level=3')
 
 chrome_options.add_argument('--incognito')
 chrome_options.add_argument('--no-sandbox')
-chrome_options.add_argument('--headless')
+# chrome_options.add_argument('--headless')
+chrome_options.addArguments("start-maximized")
+chrome_options.addArguments("enable-automation")
+chrome_options.addArguments("--no-sandbox")
+chrome_options.addArguments("--disable-infobars")
+chrome_options.addArguments("--disable-dev-shm-usage")
+chrome_options.addArguments("--disable-browser-side-navigation")
+chrome_options.addArguments("--disable-gpu");
 capabilities = {
     'browserName': 'chrome',
     'chromeOptions': {
