@@ -4,6 +4,7 @@ FROM ubuntu:20.04
 # Most important of all give this your own name
 MAINTAINER adityakarnik
 
+ARG DEBIAN_FRONTEND=noninteractive
 
 # This will give you all the latest updates and required packages to start
 RUN apt-get update \
@@ -23,7 +24,7 @@ RUN apt-get install -y python3-pip python-dev build-essential
 
 RUN wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
-RUN apt-get install ./google-chrome-stable_current_amd64.deb
+RUN apt-get install -y ./google-chrome-stable_current_amd64.deb
 
 # Copy the local folder of your app to docker container
 # Consider this app folder in placed in the same folder as your Dockerfile
