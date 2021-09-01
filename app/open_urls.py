@@ -38,7 +38,7 @@ driver = webdriver.Chrome(chromedriver_path, desired_capabilities=capabilities, 
 
 driver.maximize_window()
 
-for i in range(5):
+for i in range(500):
     link_list = ['https://www.youtube.com/watch?v=oh-BY_G8xGM&list=PLV1HSYr34sqNLZvHxkwB2d3Rg7R7nlnk_',\
                     'https://adityakarnik.com', \
                     'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiy7Ney-LzyAhWGiVwKHQkUAesQFnoECAQQAQ&url=https%3A%2F%2Fadityakarnik.com%2Fblog%2Fdocker_compose&usg=AOvVaw3A6uicrH7uX6zJsgoz5t9P', \
