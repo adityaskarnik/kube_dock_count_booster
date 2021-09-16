@@ -25,7 +25,7 @@ def run_on_user(ua):
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--disable-browser-side-navigation")
     chrome_options.add_argument("--disable-gpu")
-    chrome_options.add_argument(ua)
+    chrome_options.add_argument("--user-agent="+ua)
     capabilities = {
         'browserName': 'chrome',
         'chromeOptions': {
@@ -36,7 +36,7 @@ def run_on_user(ua):
     }
 
     driver = webdriver.Chrome(chromedriver_path, desired_capabilities=capabilities, options=chrome_options)
-
+    driver.delete_all_cookies()
     driver.maximize_window()
 
     for i in range(500):
@@ -54,5 +54,5 @@ def run_on_user(ua):
 
 import pandas as pd
 df = pd.read_excel("user-agents.xlsx")
-for i in df['Google']:
+for i in df['USER_AGENT']:
     run_on_user(i)
