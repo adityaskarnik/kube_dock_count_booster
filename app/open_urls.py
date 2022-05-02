@@ -42,8 +42,11 @@ def run_on_user(ua):
     for i in range(500):
         link_list = ['https://www.youtube.com/watch?v=oh-BY_G8xGM&list=PLV1HSYr34sqNLZvHxkwB2d3Rg7R7nlnk_',\
                         'https://adityakarnik.com', \
+                        'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjlqPCBt7b3AhUIWsAKHT_uCEEQFnoECAIQAQ&url=https%3A%2F%2Fadityakarnik.com%2Fblog%2Fdocker_compose&usg=AOvVaw3A6uicrH7uX6zJsgoz5t9P', \
                         'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiy7Ney-LzyAhWGiVwKHQkUAesQFnoECAQQAQ&url=https%3A%2F%2Fadityakarnik.com%2Fblog%2Fdocker_compose&usg=AOvVaw3A6uicrH7uX6zJsgoz5t9P', \
                         'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiOoazu9bzyAhXRTcAKHX9yAss4ChAWegQIAxAB&url=https%3A%2F%2Fadityakarnik.com%2Fblog%2Fchatbot&usg=AOvVaw03fi3x7hkdWZ2C7o-43Lh1', \
+                        'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiqlt2DtLb3AhWKa8AKHY3vCakQFnoECAQQAQ&url=https%3A%2F%2Fadityakarnik.com%2Fblog%2Fchatbot&usg=AOvVaw03fi3x7hkdWZ2C7o-43Lh1', \
+                        'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj_yNDItLb3AhWWSEEAHUrGD5cQFnoECAUQAQ&url=https%3A%2F%2Fadityakarnik.com%2Fblog%2Fexception_notifier&usg=AOvVaw0CutRfxD6bV9ipULQ6ECIk', \
                         'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjx4K2k9bzyAhULhVwKHRvcCBs4ChAWegQIERAB&url=https%3A%2F%2Fadityakarnik.com%2F&usg=AOvVaw1JlM6PRcBPlGmkDQCfkSRk', \
                         'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjGxsfg84LzAhVR8OAKHefjADI4HhAWegQIERAB&url=https%3A%2F%2Fadityakarnik.com%2Fblog%2Fexception_notifier&usg=AOvVaw0CutRfxD6bV9ipULQ6ECIk']
         for link in link_list:
