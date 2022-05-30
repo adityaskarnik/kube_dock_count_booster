@@ -33,6 +33,9 @@ COPY app/ /app
 # Navigate to yoru app directory
 WORKDIR /app
 
+# for requirements to work
+RUN apt-get install -y gdal-bin
+
 # Install you application dependencies
 RUN pip install -r requirements.txt
 
