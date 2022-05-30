@@ -4,7 +4,6 @@ def run_on_user(ua):
     import time
 
     chromedriver_path = os.getcwd() + "/chromedriver"
-    print("pwd", chromedriver_path)
     from selenium.webdriver.common.action_chains import ActionChains
     from selenium.webdriver.chrome.options import Options
     from selenium.webdriver.support import expected_conditions as EC
