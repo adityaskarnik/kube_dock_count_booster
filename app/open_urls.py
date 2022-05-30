@@ -48,7 +48,10 @@ def run_on_user(ua):
                         'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiqlt2DtLb3AhWKa8AKHY3vCakQFnoECAQQAQ&url=https%3A%2F%2Fadityakarnik.com%2Fblog%2Fchatbot&usg=AOvVaw03fi3x7hkdWZ2C7o-43Lh1', \
                         'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj_yNDItLb3AhWWSEEAHUrGD5cQFnoECAUQAQ&url=https%3A%2F%2Fadityakarnik.com%2Fblog%2Fexception_notifier&usg=AOvVaw0CutRfxD6bV9ipULQ6ECIk', \
                         'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjx4K2k9bzyAhULhVwKHRvcCBs4ChAWegQIERAB&url=https%3A%2F%2Fadityakarnik.com%2F&usg=AOvVaw1JlM6PRcBPlGmkDQCfkSRk', \
-                        'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjGxsfg84LzAhVR8OAKHefjADI4HhAWegQIERAB&url=https%3A%2F%2Fadityakarnik.com%2Fblog%2Fexception_notifier&usg=AOvVaw0CutRfxD6bV9ipULQ6ECIk']
+                        'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjGxsfg84LzAhVR8OAKHefjADI4HhAWegQIERAB&url=https%3A%2F%2Fadityakarnik.com%2Fblog%2Fexception_notifier&usg=AOvVaw0CutRfxD6bV9ipULQ6ECIk', \
+                        'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwia7MuotYb4AhV1zIsBHaspCLYQFnoECAIQAQ&url=https%3A%2F%2Fyoutube.com%2Fchannel%2FUCmyiGTOXvXGnEWf2lmTZ__w&usg=AOvVaw0OK-ptXhLT0TMtAjeDKe6b', \
+                        'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&cad=rja&uact=8&ved=2ahUKEwi6sZOZs4b4AhWMSJQKHQkNBvYQtwJ6BAgCEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DlK2CUVXVfXs&usg=AOvVaw2iZ50pcSgcNGICuOXbQ_kp', \
+                        'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwia7MuotYb4AhV1zIsBHaspCLYQFnoECAQQAQ&url=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCmyiGTOXvXGnEWf2lmTZ__w%2Fvideos&usg=AOvVaw3iMiybldx4jOG9fXliVuvv']
         for link in link_list:
             driver.get(link)
             print("Running" , link)
